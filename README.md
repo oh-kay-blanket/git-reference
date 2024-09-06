@@ -7,6 +7,11 @@
 For posting to gh-pages. Ensure that `dist/` directory is tracked first.  
 `git subtree push --prefix dist origin gh-pages`
 
+You can also add this to the package.json scripts: "deploy": "git subtree push --prefix dist origin gh-pages"
+
+#### Custom domain
+`gh-pages -d build --cname custom-domain.com`
+
 ### Managing multiple accounts
 
 * https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3
