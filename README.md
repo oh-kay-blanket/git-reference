@@ -12,6 +12,8 @@ You can also add this to the package.json scripts: "deploy": "git subtree push -
 #### Custom domain
 `gh-pages -d build --cname custom-domain.com`
 
+Can use this if having trouble: `git push origin --delete gh-pages`
+
 ### Managing multiple accounts
 
 * https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3
