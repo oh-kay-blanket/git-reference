@@ -10,7 +10,7 @@ For posting to gh-pages. Ensure that `dist/` directory is tracked first.
 ### Managing multiple accounts
 
 * https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3
-* `git clone git clone git@github.com-oh-kay-blanket:oh-kay-blanket/{the-repo-name}.git`
+* `git clone git@github.com-oh-kay-blanket:oh-kay-blanket/{the-repo-name}.git`
 * Within repo `git config user.email "kayla.lee.plunkett@gmail.com"`
 
 ## Git
