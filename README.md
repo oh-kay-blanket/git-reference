@@ -10,7 +10,7 @@ For posting to gh-pages. Ensure that `dist/` directory is tracked first.
 You can also add this to the package.json scripts: "deploy": "git subtree push --prefix dist origin gh-pages"
 
 #### Custom domain
-`gh-pages -d build --cname custom-domain.com`
+`gh-pages -d dist --cname learncryptic.com`
 
 Can use this if having trouble: `git push origin --delete gh-pages`
 
