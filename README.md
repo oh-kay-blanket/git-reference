@@ -4,7 +4,7 @@
 
 ### Sub tree
 
-For posting to gh-pages. Ensure that `dist/` directory is tracked first.  
+For posting to gh-pages. Ensure that `dist/`/`build/` directory is tracked first.  
 `git subtree push --prefix dist origin gh-pages`
 
 You can also add this to the package.json scripts: "deploy": "git subtree push --prefix dist origin gh-pages"
